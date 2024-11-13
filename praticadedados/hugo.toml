@@ -1,0 +1,71 @@
+baseURL = 'https://praticadedados.dsre.dev/'
+languageCode = 'pt-br'
+title = 'Prática de Dados'
+theme='anubis2'
+
+[pagination]
+pagerSize = 5
+
+[params.author]
+name = "Danilo Scorzoni Ré"
+email  = "danilo.scorzoni@gmail.com"
+location = "São Paulo/SP"
+
+[params]
+description = "Repositório de código e artigos do Prática de Dados"
+paginationSinglePost = true
+
+colorTheme = "auto"
+colorThemeSwitcher = true
+
+readMore = true
+readNextPosts = 2
+copyCodeButton = true
+rssAsSocialIcon = true
+locale = "pt-br"
+math = true
+toc = true
+
+social = [
+    { id = "github", url = "https://github.com/dscorzoni" },
+    { id = "linkedin", url = "https://www.linkedin.com/in/dscorzoni/" },
+    { id = "youtube", url = "https://www.youtube.com/c/Pr%C3%A1ticadeDados" }
+]
+
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 3
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+author = "authors"
+
+[markup]
+defaultMarkdownHandler = 'goldmark'
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+anchorLineNos      = false
+codeFences         = true # tested with true and false. Both work.
+noClasses          = true # If you run with markup.highlight.noClasses=false in your site configuration, you need a style sheet.
+style              = 'base16-snazzy'
+tabWidth           = 4
+
+[params.UmamiAnalytics]
+enabled = true
+dnt = false
+id = "16f92f2c-a24c-464e-883a-628f95af4fe2"                                            # Website ID
+datacache = false
+url = "https://umami.xtra.science/script.js"
+shareUrl = "https://umami.xtra.science/share/Fy0goUn0b9rrxxGe/hugo-theme-anubis2.netlify.app"

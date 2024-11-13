@@ -1,0 +1,10 @@
+[submodule "praticadedados/themes/beautifulhugo"]
+	path = praticadedados/themes/beautifulhugo
+	url = https://github.com/halogenica/beautifulhugo.git
+[submodule "praticadedados/themes/anubis2"]
+	path = praticadedados/themes/anubis2
+	url = https://github.com/Junyi-99/hugo-theme-anubis2.git
+[submodule "praticadedados/public"]
+	path = praticadedados/public
+	url = https://github.com/dscorzoni/praticadedados.github.io.git
+	branch = main
